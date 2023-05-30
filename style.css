@@ -1,0 +1,164 @@
+
+.container {
+width: 900px;
+margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color:#333333; 
+    color: white;
+    height: 80px;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #16a1b8;
+    color: white;
+    border-width: 2px;
+    border-color: black;
+    height: 35px;
+    width: 100px;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.active {
+    font-weight: bold;
+}
+.usercard, .card {
+    margin: 0px auto;
+    border: 2px solid #999;
+    border-color: #cccccc;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+
+.header-box {
+    background-color:#16a1b8;
+    height: 150px;
+}
+
+.user-circle {
+    width: 150px;
+    margin-top: 69px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    border: 2px solid #cccccc;
+}
+
+.map-icon {
+    width: 15px;
+    padding-right: 5px;
+}
+
+.card-body {
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+.gear-icon{
+    width: 20px;
+    padding-right: 5px;
+}
+
+a {
+    color: #095394;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.card-header {
+    background-color: #333333;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.card-body2 {
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+.view-more {
+    border-top: 2px solid #999;
+    border-color: #cccccc;
+    padding: 16px;
+}
+
+.dates {
+    font-size: 20px;
+    color: #777;
+}
+
+.card-body3 {
+    padding: 10px;
+    font-family: sans-serif;
+}
+.connections {
+    background-color: #eee;
+    color: #333;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
